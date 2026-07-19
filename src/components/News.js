@@ -32,7 +32,7 @@ export class News extends Component {
 
     this.setState({ loading: true });
 
-    let url = `https://newsapi.org/v2/top-headlines?q=${this.props.category}&apiKey=a2068866d5124f4e90368bd42ab4dbaa&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?q=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
 
     let data = await fetch(url);
     let parsedData = await data.json();
