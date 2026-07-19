@@ -1,0 +1,84 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Léo Pajon",
+      "title": "'I would do a line before service, hidden in the bathroom': How cocaine is flooding the restaurant industry",
+      "description": "Cocaine at work (2/3). From fast-food joints to Michelin-starred restaurants, drug use has become as commonplace as it is alarming in an industry driven by the pursuit of performance, a toxic party culture and grueling working conditions.",
+      "url": "https://www.lemonde.fr/en/campus/article/2026/07/12/i-would-do-a-line-before-service-hidden-in-the-bathroom-how-cocaine-is-flooding-the-restaurant-industry_6755405_11.html",
+      "urlToImage": "https://img.lemde.fr/2026/06/29/64/68/2123/1415/1440/960/60/0/fa5a5a0_upload-1-3mb3abetffat-02-hd-1.jpg",
+      "publishedAt": "2026-07-12T15:30:06Z",
+      "content": "A year ago, Florent (whose first name has been changed, as have those of all other interviewees) landed a job as a manager at a lively restaurant in central Paris. This student in his twenties hoped … [+2028 chars]"
+    },
+    {
+      "source": {
+        "id": "medical-news-today",
+        "name": "Medical News Today"
+      },
+      "author": "Katharine Lang",
+      "title": "Ultra-processed foods increase 'bad' fatty acids in blood, large study finds",
+      "description": "Eating a high mount of ultra-processed foods is linked to blood metabolite changes, leading to higher levels of 'bad' fatty acids, according to a large new study.",
+      "url": "https://www.medicalnewstoday.com/articles/ultra-processed-foods-increase-fatty-acids-in-blood-large-study-finds",
+      "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2026/07/getty_1475328388_facebook_1200x630-1200x628.jpg",
+      "publishedAt": "2026-07-11T06:00:00Z",
+      "content": "\u003Cul\u003E\u003Cli\u003EThere is increasing evidence that ultra-processed foods (UPFs) are harmful to health, but the mechanisms by which they do so are not entirely clear.\u003C/li\u003E\u003Cli\u003ENow, a study has found that people… [+7869 chars]"
+    },
+    {
+      "source": {
+        "id": "time",
+        "name": "Time"
+      },
+      "author": "Sarah Klein",
+      "title": "The Best Foods to Eat for Constipation",
+      "description": "You can often get things moving again with some simple changes to your diet.",
+      "url": "https://time.com/article/2026/07/10/best-foods-for-constipation/",
+      "urlToImage": "https://static.time.com/v3/assets/bltea6093859af6183b/blt10608ce3e051e6dc/6a4d1fe1034c704e088a7e70/GettyImages-1202985886.jpg?branch=production&width=3840&quality=75&auto=webp&crop=16:9",
+      "publishedAt": "2026-07-10T13:11:14Z",
+      "content": "Beans and lentils are popular sources of plant-based protein, but they also pack plenty of fiber.\r\nPasricha suggests roasted chickpeas as a fiber-rich swap for a salty snack like pretzels or chips. T… [+3829 chars]"
+    },
+    {
+      "source": {
+        "id": "news24",
+        "name": "News24"
+      },
+      "author": "Hanlie Nordejee",
+      "title": "Consumers get food price relief, but fuel pushes inflation beyond the comfort zone",
+      "description": "The inflation rate surged to 4.5% in May, but still came in lower than the 4.7% most economists had expected. It is the highest level since July 2024, when inflation hit 4.6%.",
+      "url": "https://www.news24.com/business/economy/consumers-get-food-price-relief-but-fuel-pushes-inflation-beyond-the-comfort-zone-20260617-0527",
+      "urlToImage": "https://news24cobalt.24.co.za/resources/02a3-202b10f474db-ff4d80edd9ac-1000/format/inline/gettyimages-1361391451.jpeg",
+      "publishedAt": "2026-06-17T08:59:39",
+      "content": "The inflation rate surged to 4.5% in May, but still came in lower than the 4.7% most economists had expected. It is the highest level since July 2024, when inflation hit 4.6%.\r\nIn a positive move, fo… [+3050 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Siôn Geschwindt",
+      "title": "Mobility giant Bolt adopts self-driving Starship robots for food delivery",
+      "description": "Bolt plans to roll out thousands of the robots across multiple countries, starting in its home city of Tallinn later this year.",
+      "url": "http://thenextweb.com/news/mobility-giant-bolt-adopts-self-driving-starship-robots-for-food-delivery",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F06%2Fbolt-starship-robot-delivery.jpg&signature=c902ce701ce95e20f6fd703a50ad52ca",
+      "publishedAt": "2023-06-22T09:17:15Z",
+      "content": "European ride-hailing firm Bolt will start using self-driving robots to deliver customers food as part of a new partnership with fellow Estonian company Starship Technologies, announced yesterday.  \r… [+2447 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Dipak K Dash",
+      "title": "Government to provide 5 kg free food grains to poor for May & June",
+      "description": "India News: The government on Friday announced to provide 5 kg free food grains to the poor for May and June 2021. This will cover nearly 80 crore beneficiaries u",
+      "url": "http://timesofindia.indiatimes.com/india/government-to-provide-5-kg-free-food-grains-to-poor-for-may-june/articleshow/82213582.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-82213583,width-1070,height-580,imgsize-1921513,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2021-04-23T04:23:00Z",
+      "content": null
+    }
+  ]
+}
