@@ -15,7 +15,6 @@ export class News extends Component {
     category: PropTypes.string,
   }
 
-
   constructor() {
     super();
 
@@ -27,19 +26,17 @@ export class News extends Component {
     };
   }
 
-
   async updateNews() {
 
     this.setState({ loading: true });
 
-    let url = `https://newsapi.org/v2/top-headlines?q=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?q=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
 
     let data = await fetch(url);
     let parsedData = await data.json();
 
     console.log(url);
     console.log(parsedData);
-
 
     this.setState({
       articles: parsedData.articles || [],
@@ -49,17 +46,13 @@ export class News extends Component {
 
   }
 
-
   async componentDidMount() {
     this.updateNews();
   }
 
-
   async componentDidUpdate(prevProps) {
 
-    if (
-      prevProps.category !== this.props.category
-    ) {
+    if (prevProps.category !== this.props.category) {
 
       this.setState(
         {
@@ -74,7 +67,6 @@ export class News extends Component {
 
   }
 
-
   handlePrevClick = () => {
 
     this.setState(
@@ -87,7 +79,6 @@ export class News extends Component {
     );
 
   }
-
 
   handleNextClick = () => {
 
@@ -102,38 +93,30 @@ export class News extends Component {
 
   }
 
-
   capitalizeFirstLetter = (string) => {
 
     return string.charAt(0).toUpperCase() + string.slice(1);
 
   }
 
-
   render() {
-
 
     const totalPages = Math.max(
       1,
       Math.ceil(this.state.totalResults / this.props.pageSize)
     );
 
-
     return (
 
       <div className="container my-3">
-
 
         <h1 className="text-center">
           NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines
         </h1>
 
-
         {this.state.loading && <Spinner />}
 
-
         <div className="row">
-
 
           {!this.state.loading &&
             this.state.articles.map((element) => {
@@ -158,6 +141,9 @@ export class News extends Component {
                     imageUrl={element.urlToImage}
 
                     newsUrl={element.url}
+                    author={element.author}
+                    date={element.publishedAt}
+                    source={element.source.name}
                   />
 
                 </div>
@@ -168,59 +154,33 @@ export class News extends Component {
 
           }
 
-
         </div>
-
-
 
         <div className="container d-flex justify-content-between align-items-center my-3">
 
-
           <button
-
             disabled={this.state.page <= 1}
-
             type="button"
-
             className="btn btn-dark"
-
             onClick={this.handlePrevClick}
-
           >
-
             &larr; Previous
-
           </button>
-
-
 
           <span className="fw-bold">
-
             Page {this.state.page} of {totalPages}
-
           </span>
 
-
-
           <button
-
             disabled={this.state.page >= totalPages}
-
             type="button"
-
             className="btn btn-dark"
-
             onClick={this.handleNextClick}
-
           >
-
             Next &rarr;
-
           </button>
 
-
         </div>
-
 
       </div>
 
@@ -229,6 +189,5 @@ export class News extends Component {
   }
 
 }
-
 
 export default News;
